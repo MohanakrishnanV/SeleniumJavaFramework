@@ -16,7 +16,7 @@ public class LaunchBrowser {
 		extent.attachReporter(spark);
 		
 		// Browser driver Path set up
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\ADMIN\\eclipse-workspace\\SeleniumJavaFramework\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","SeleniumJavaFramework\\drivers\\chromedriver.exe");
 				
 		//Browser object declaration
 		WebDriver driver = new ChromeDriver();
